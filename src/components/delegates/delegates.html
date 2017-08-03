@@ -1,0 +1,13 @@
+<!-- Generated template for the DelegatesComponent component -->
+<ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+<ion-list>
+  <ion-item *ngFor="let d of delegates" (click)="showDelegate(d)">
+    <ion-avatar item-start>
+      <img [src]="d.photo">
+    </ion-avatar>
+    
+    <h3>{{d.title}}</h3>
+    <p>{{d.subTitle}}...</p>
+  </ion-item>
+
+</ion-list>

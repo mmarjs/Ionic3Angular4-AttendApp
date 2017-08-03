@@ -1,0 +1,11 @@
+<!-- Generated template for the SpeakersComponent component -->
+<ion-list>
+  <ion-item *ngFor="let s of speakers" (click)="showSpeaker(s)">
+    <ion-avatar item-start>
+      <img [src]="s.photo">
+    </ion-avatar>
+    
+    <h3>{{s.name}}</h3>
+  </ion-item>
+
+</ion-list>

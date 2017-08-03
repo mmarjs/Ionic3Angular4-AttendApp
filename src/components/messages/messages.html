@@ -1,0 +1,11 @@
+<!-- Generated template for the MessagesComponent component -->
+<ion-list>
+  <ion-item *ngFor="let m of messages" (click)="showMessage(m)">
+    <ion-avatar item-start>
+      <img [src]="m.photo">
+    </ion-avatar>
+    
+    <h3>{{m.title}}</h3>
+  </ion-item>
+
+</ion-list>

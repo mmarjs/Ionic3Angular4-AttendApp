@@ -1,0 +1,15 @@
+.profile-data {
+    text-align: center;
+
+    img {
+        border-radius: 50%;
+        width: 150px;
+    }
+
+    .data {
+        text-align: left;
+
+        dt { font-weight: bold;}
+        dd {margin-bottom: 10px;}
+    }
+}
